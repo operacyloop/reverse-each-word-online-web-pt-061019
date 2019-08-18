@@ -12,7 +12,7 @@
 
 def reverse_each_word(string)
 string = string.split(" ")
-string.collect { |string| string.reverse.join(" ") }
+new_array = string.collect { |string| string.reverse.join(" ") }
 
 
 
