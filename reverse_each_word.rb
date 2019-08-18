@@ -10,6 +10,10 @@ i = 0 #sets counter to zero
 return new_array.join(" ") #return the string with the words reversed
 end
 
+def reverse_each_word(string)
+string = string.split(" ")
+
+
 
 
 
